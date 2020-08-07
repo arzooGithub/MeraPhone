@@ -46,6 +46,8 @@ public class LoginFragment extends Fragment {
             public void onClick(View v) {
 
 
+                    Intent myIntent = new Intent(getActivity(), MeraPhonDrawerActivity.class);
+                    startActivity(myIntent);
 
             }
         });
