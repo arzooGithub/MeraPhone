@@ -11,12 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".ShowCartActivity"></activity>
         <activity android:name=".ShowDetailsActivity" />
+
         <activity
             android:name=".MeraPhonDrawerActivity"
             android:label="@string/title_activity_mera_phon_drawer"
             android:theme="@style/AppTheme.NoActionBar" />
+
         <activity android:name=".MainActivity" android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

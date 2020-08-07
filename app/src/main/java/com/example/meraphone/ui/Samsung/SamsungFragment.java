@@ -19,10 +19,14 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class SamsungFragment extends Fragment {
+
     private RecyclerView recyclerView;
     private ArrayList<String> nNames=new ArrayList<>();
     private ArrayList<String> mImagesURLs=new ArrayList<>();
     private ArrayList<String> ncost=new ArrayList<>();
+
+
+
     public SamsungFragment() {
         // Required empty public constructor
     }

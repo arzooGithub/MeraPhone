@@ -20,10 +20,13 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class AccessoriesFragment extends Fragment {
+
     private RecyclerView recyclerView;
     private ArrayList<String> nNames=new ArrayList<>();
     private ArrayList<String> mImagesURLs=new ArrayList<>();
     private ArrayList<String> ncost=new ArrayList<>();
+
+
 
     public AccessoriesFragment() {
         // Required empty public constructor
@@ -35,6 +38,7 @@ public class AccessoriesFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_accessories, container, false);
+
         recyclerView=view.findViewById(R.id.recycle_accessories);
         initImageBitmaps();
         return view;
@@ -87,6 +91,12 @@ public class AccessoriesFragment extends Fragment {
         LinearLayoutManager horizontalLayoutManagaer = new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(horizontalLayoutManagaer);
     }
+
+
+      
+
+
+
 
     }
 
