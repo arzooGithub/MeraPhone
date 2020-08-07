@@ -1,3 +1,4 @@
+
 package com.example.meraphone.ui.AllGadgets;
 
 import android.annotation.SuppressLint;
@@ -19,7 +20,7 @@ import com.example.meraphone.ui.Iphone.IphoneFragment;
  * A simple {@link Fragment} subclass.
  */
 public class AllGadgetsFragment extends Fragment {
-
+    private Button apple,samsung,redmi,vivo;
 
     public AllGadgetsFragment() {
         // Required empty public constructor
@@ -31,8 +32,36 @@ public class AllGadgetsFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_all_gadgets, container, false);
+        apple = view.findViewById(R.id.apple);
+
+        samsung = view.findViewById(R.id.samsung);
+        redmi = view.findViewById(R.id.redmi);
+        vivo = view.findViewById(R.id.vivo);
+        apple.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
 
 
+            }
+        });
+        samsung.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        redmi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+        vivo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
         return view;
     }
 }

@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,12 +8,11 @@
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:id="@+id/phone"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:text="My Purchases"
-        android:gravity="center"
-        android:textSize="20dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text="My Purchase"
+        android:gravity="center"
+        />
+
 </FrameLayout>

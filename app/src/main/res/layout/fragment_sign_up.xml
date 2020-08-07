@@ -114,28 +114,30 @@
                 <Button
                     android:id="@+id/login"
                     android:layout_width="120dp"
+                    android:textColor="@color/colorwhite"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/pass"
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="40dp"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="30dp"
                     android:background="@color/colorAccent"
                     android:text="LOGIN"
-                    android:textColor="@color/colorwhite" />
+                    />
 
                 <Button
                     android:id="@+id/signup"
                     android:layout_width="120dp"
+                    android:textColor="@color/colorwhite"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/pass"
                     android:layout_alignParentRight="true"
-                    android:layout_marginTop="40dp"
+                    android:layout_marginTop="30dp"
                     android:layout_marginRight="40dp"
                     android:background="@color/colorAccent"
-                    android:text="SIGNUP"
 
 
-                    android:textColor="@color/colorwhite" />
+
+                    android:text="SIGNUP" />
 
             </RelativeLayout>
 
