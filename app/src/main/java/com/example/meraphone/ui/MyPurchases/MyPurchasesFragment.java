@@ -21,6 +21,9 @@ import java.util.ArrayList;
  */
 public class MyPurchasesFragment extends Fragment {
 
+
+    private ArrayList<String> ncost=new ArrayList<>();
+
     public MyPurchasesFragment() {
         // Required empty public constructor
     }
@@ -35,4 +38,7 @@ public class MyPurchasesFragment extends Fragment {
         return view;
     }
 
-       }
+}
+
+      
+

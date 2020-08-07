@@ -33,6 +33,7 @@ public class AllGadgetsFragment extends Fragment {
         View view= inflater.inflate(R.layout.fragment_all_gadgets, container, false);
 
 
+
         return view;
     }
 }
