@@ -1,3 +1,4 @@
+
 package com.example.meraphone.ui.home;
 
 import android.os.Bundle;
@@ -23,12 +24,10 @@ import com.example.meraphone.R;
 import java.util.ArrayList;
 
 public class HomeFragment extends Fragment {
-
     private RecyclerView rec_topsales,rec_newarrivals,rec_Recommendations;
     private ArrayList<String> nNames=new ArrayList<>();
     private ArrayList<String> mImagesURLs=new ArrayList<>();
     private ArrayList<String> ncost=new ArrayList<>();
-
     public HomeFragment() {
         // Required empty public constructor
     }
@@ -37,7 +36,6 @@ public class HomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_home, container, false);
-
         rec_topsales=view.findViewById(R.id.rec_topsales);
         rec_newarrivals=view.findViewById(R.id.rec_newarrivals);
         rec_Recommendations=view.findViewById(R.id.rec_Recommendations);
@@ -100,6 +98,6 @@ public class HomeFragment extends Fragment {
         rec_Recommendations.setLayoutManager(new LinearLayoutManager(getContext()));
         LinearLayoutManager horizontalLayoutManagaer2 = new LinearLayoutManager(getActivity(), LinearLayoutManager.HORIZONTAL, false);
         rec_Recommendations.setLayoutManager(horizontalLayoutManagaer2);
-          }
+    }
 
 }
