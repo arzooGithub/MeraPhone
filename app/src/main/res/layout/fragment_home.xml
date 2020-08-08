@@ -12,9 +12,8 @@
        android:layout_height="wrap_content"
        android:drawableLeft="@drawable/ic_search_black_24dp"
       android:textStyle="bold"
-       android:padding="10dp"
+       android:padding="11dp"
        android:hint=" Search"
-
        android:textSize="25dp"
       android:textColor="@color/colorBlue"
        android:background="@drawable/etstyles"
